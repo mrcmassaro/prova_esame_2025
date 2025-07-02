@@ -73,3 +73,16 @@ Una volta importate potremo eseguire il comando che ci permetterà di visualizza
 uvicorn (nome_della_cartella , se non si trova nella parte principale).(nome_del_file):app --reload
 
 uvicorn Api.api:app --reload
+
+------------------------------------------------------------------------------------------------------
+FASE 6 : Analisi dei dati----------> Notebook.ipynb
+------------------------------------------------------------------------------------------------------
+
+Per la parte di analisi dei dati, utilizzeremo Jupiter, utile per la sua struttura modulare.
+In questa parte dovremo dividere in diversi moduli la nostra analisi.
+Nel primo mopdulo dovranno esserci le importazioni delle librerie che verranno utilizzate inj questo file.
+Nei moduli seguenti andremo a leggere i csv di cui siamo interessati e andremo ad inserire i loro dati dentro dei dataframe che verranno visualizzati tramite display().
+Nel caso serva prima dell'analisi andremo a rinominare le colonne scritte in maniera errata.
+Dopodiche potremo effettuare le nostre analisi in base alle varie richieste. 
+Di norma ciò avviene creando nuovi df in cui sulla base dei precedenti vengono fatte varie operazioni.
+Infine vengono fatti i grafici veri e proprio attraverso la libreria plotly.express
