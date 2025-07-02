@@ -23,11 +23,13 @@ cursor.execute('''
 
 
 # Query per ottenere i dati necessari   
-query_prova = "SELECT * FROM occupazione"
+query_prova = "SELECT * FROM prova"
 
 df_occupazione = query_db(query_prova)
 
 prova_media= df_occupazione.groupby(['SPECIES', 'TIME_PERIOD'])['OBS_VALUE'].mean().reset_index()
+
+prova_media.rename(columns={'OBS_VALUE': 'media_OBS_VALUE'}, inplace=True)
 
 prova_media.to_sql('prova_media', conn, if_exists='replace', index=False)
 

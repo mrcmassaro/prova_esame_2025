@@ -47,7 +47,7 @@ conn = sqlite3.connect('prova.db')
 cursor = conn.cursor()
 
 for _, row in df_occupazione.iterrows():
-    cursor.execute('INSERT INTO occupazione (GEO, TIME_PERIOD, OBS_VALUE, SPECIES) VALUES (?, ?, ? , ?)',
+    cursor.execute('INSERT INTO prova (GEO, TIME_PERIOD, OBS_VALUE, SPECIES) VALUES (?, ?, ? , ?)',
                    (row['geo'], row['TIME_PERIOD'], row['OBS_VALUE'], row['species']))
 
 conn.commit()
