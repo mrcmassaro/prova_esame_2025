@@ -3,6 +3,8 @@ FASE 1 : IMPORTAZIONE DEI DATI  ----------> import_data.py
 ------------------------------------------------------------------------------------------------------
 
 La prima cosa da fare nel progetto è creare uno script in pyhton che ci permetta di scaricare un file csv partendo da un url.
+Se il raw proviene dal github, basta copiare l'url della pagine in cui è contenuto e modificarlo sostituendo la parte 
+subito dopo l'https con questa raw.githubusercontent.com e togliendo la parte relativa al blob.
 Bisogna specificare la cartella corrente e la cartella in cui si vogliono inserire i file csv tramite os.
 
 Dopodiche si creano 2 funzioni :
