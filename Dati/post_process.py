@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3
 
-conn = sqlite3.connect('prova.db')
+conn = sqlite3.connect('pesca.db')
 
 def interpolate_missing_data(df, columns):
     for col in columns:
@@ -9,8 +9,9 @@ def interpolate_missing_data(df, columns):
     return df
 
 # Interpolazione dei dati mancanti
-for table, column in [('prova', 'OBS_VALUE'),
-                      ('prova_media', 'media_OBS_VALUE')]:
+for table, column in [('occupazione', 'occupazione'),
+                      ('economia', 'importanza_economica'),
+                      ('produttivita', 'produttivita')]:
     df = pd.read_sql_query(f"SELECT * FROM {table}", conn)
     df = interpolate_missing_data(df, [column])
     df.to_sql(table, conn, if_exists='replace', index=False)

@@ -1,0 +1,241 @@
+Anno,Regione,Valore_produttivita
+2000,Piemonte,59.218
+2000,Valle d'Aosta,372.0144
+2000,Lombardia,119.4304
+2000,Trentino-Alto Adige,43.3656
+2000,Veneto,24.3476
+2000,Friuli-Venezia Giulia,50.0866
+2000,Liguria,38.0117
+2000,Emilia-Romagna,64.7482
+2000,Toscana,81.2459
+2000,Umbria,58.0179
+2000,Marche,56.4686
+2000,Lazio,52.7949
+2000,Abruzzo,23.4148
+2000,Molise,70.0927
+2000,Campania,44.2093
+2000,Puglia,40.0972
+2000,Basilicata,94.9162
+2000,Calabria,32.3177
+2000,Sicilia,36.2437
+2000,Sardegna,38.8866
+2001,Piemonte,52.2572
+2001,Valle d'Aosta,123.1389
+2001,Lombardia,52.8148
+2001,Trentino-Alto Adige,43.1246
+2001,Veneto,20.795
+2001,Friuli-Venezia Giulia,43.1163
+2001,Liguria,30.9476
+2001,Emilia-Romagna,72.0314
+2001,Toscana,45.7511
+2001,Umbria,38.8994
+2001,Marche,53.8849
+2001,Lazio,34.6012
+2001,Abruzzo,17.9348
+2001,Molise,52.4957
+2001,Campania,28.8925
+2001,Puglia,34.1677
+2001,Basilicata,69.5794
+2001,Calabria,19.7242
+2001,Sicilia,24.9143
+2001,Sardegna,33.2133
+2002,Piemonte,52.369
+2002,Valle d'Aosta,335.4186
+2002,Lombardia,106.2597
+2002,Trentino-Alto Adige,39.6644
+2002,Veneto,19.5813
+2002,Friuli-Venezia Giulia,34.3467
+2002,Liguria,29.4048
+2002,Emilia-Romagna,54.3578
+2002,Toscana,74.9322
+2002,Umbria,53.2934
+2002,Marche,39.2768
+2002,Lazio,39.8474
+2002,Abruzzo,14.3875
+2002,Molise,37.5743
+2002,Campania,35.9726
+2002,Puglia,38.5976
+2002,Basilicata,97.1754
+2002,Calabria,25.0669
+2002,Sicilia,22.3657
+2002,Sardegna,27.3712
+2003,Piemonte,53.4999
+2003,Valle d'Aosta,297.4268
+2003,Lombardia,118.3025
+2003,Trentino-Alto Adige,41.8275
+2003,Veneto,20.2935
+2003,Friuli-Venezia Giulia,32.4553
+2003,Liguria,48.8892
+2003,Emilia-Romagna,57.5014
+2003,Toscana,79.9598
+2003,Umbria,61.8631
+2003,Marche,41.8168
+2003,Lazio,61.3062
+2003,Abruzzo,10.8345
+2003,Molise,39.1959
+2003,Campania,47.3885
+2003,Puglia,38.2315
+2003,Basilicata,105.0855
+2003,Calabria,24.8241
+2003,Sicilia,25.2605
+2003,Sardegna,30.6931
+2004,Piemonte,41.0056
+2004,Valle d'Aosta,230.5
+2004,Lombardia,89.6535
+2004,Trentino-Alto Adige,34.7035
+2004,Veneto,16.9397
+2004,Friuli-Venezia Giulia,26.3922
+2004,Liguria,38.1539
+2004,Emilia-Romagna,51.4307
+2004,Toscana,61.3722
+2004,Umbria,52.677
+2004,Marche,36.5194
+2004,Lazio,53.3801
+2004,Abruzzo,11.5384
+2004,Molise,44.4374
+2004,Campania,43.1896
+2004,Puglia,35.5222
+2004,Basilicata,91.1654
+2004,Calabria,21.2996
+2004,Sicilia,23.9534
+2004,Sardegna,27.9552
+2005,Piemonte,38.0795
+2005,Valle d'Aosta,241.5206
+2005,Lombardia,83.4762
+2005,Trentino-Alto Adige,59.6962
+2005,Veneto,20.9117
+2005,Friuli-Venezia Giulia,30.3755
+2005,Liguria,27.7297
+2005,Emilia-Romagna,35.8085
+2005,Toscana,54.9113
+2005,Umbria,55.8381
+2005,Marche,36.5583
+2005,Lazio,53.3955
+2005,Abruzzo,12.8274
+2005,Molise,68.3264
+2005,Campania,30.9802
+2005,Puglia,31.8578
+2005,Basilicata,86.9494
+2005,Calabria,20.1019
+2005,Sicilia,21.409
+2005,Sardegna,21.4673
+2006,Piemonte,35.62
+2006,Valle d'Aosta,257.9651
+2006,Lombardia,81.2041
+2006,Trentino-Alto Adige,53.958
+2006,Veneto,20.7911
+2006,Friuli-Venezia Giulia,33.1418
+2006,Liguria,25.8747
+2006,Emilia-Romagna,42.3957
+2006,Toscana,56.5092
+2006,Umbria,60.2484
+2006,Marche,37.9052
+2006,Lazio,57.5403
+2006,Abruzzo,11.8401
+2006,Molise,53.1727
+2006,Campania,39.9744
+2006,Puglia,35.2869
+2006,Basilicata,19.7479
+2006,Calabria,25.8001
+2006,Sicilia,19.1097
+2006,Sardegna,25.4871
+2007,Piemonte,46.7529
+2007,Valle d'Aosta,286.7208
+2007,Lombardia,78.814
+2007,Trentino-Alto Adige,66.4505
+2007,Veneto,17.2561
+2007,Friuli-Venezia Giulia,31.1676
+2007,Liguria,28.6017
+2007,Emilia-Romagna,59.6104
+2007,Toscana,66.4219
+2007,Umbria,50.0175
+2007,Marche,32.2652
+2007,Lazio,44.7548
+2007,Abruzzo,6.0684
+2007,Molise,32.1141
+2007,Campania,55.8497
+2007,Puglia,35.1173
+2007,Basilicata,22.4378
+2007,Calabria,26.5647
+2007,Sicilia,16.2612
+2007,Sardegna,27.9797
+2008,Piemonte,47.2379
+2008,Valle d'Aosta,
+2008,Lombardia,97.8172
+2008,Trentino-Alto Adige,93.1295
+2008,Veneto,15.3837
+2008,Friuli-Venezia Giulia,31.5013
+2008,Liguria,27.6521
+2008,Emilia-Romagna,56.5868
+2008,Toscana,69.4411
+2008,Umbria,103.44
+2008,Marche,27.563
+2008,Lazio,45.8418
+2008,Abruzzo,4.3062
+2008,Molise,42.4943
+2008,Campania,45.216
+2008,Puglia,29.4288
+2008,Basilicata,63.3382
+2008,Calabria,22.4602
+2008,Sicilia,12.8835
+2008,Sardegna,23.7629
+2009,Piemonte,197.9233
+2009,Valle d'Aosta,
+2009,Lombardia,106.583
+2009,Trentino-Alto Adige,82.701
+2009,Veneto,13.6469
+2009,Friuli-Venezia Giulia,34.1203
+2009,Liguria,33.7696
+2009,Emilia-Romagna,116.0438
+2009,Toscana,73.5061
+2009,Umbria,113.0168
+2009,Marche,24.2761
+2009,Lazio,50.7767
+2009,Abruzzo,5.7345
+2009,Molise,51.8234
+2009,Campania,48.7858
+2009,Puglia,29.8685
+2009,Basilicata,60.7387
+2009,Calabria,27.0846
+2009,Sicilia,14.1352
+2009,Sardegna,23.4795
+2010,Piemonte,202.281
+2010,Valle d'Aosta,
+2010,Lombardia,114.5955
+2010,Trentino-Alto Adige,104.5943
+2010,Veneto,14.1117
+2010,Friuli-Venezia Giulia,37.5311
+2010,Liguria,39.1639
+2010,Emilia-Romagna,117.0091
+2010,Toscana,76.9646
+2010,Umbria,129.5519
+2010,Marche,25.392
+2010,Lazio,56.682
+2010,Abruzzo,5.8832
+2010,Molise,61.4712
+2010,Campania,47.4528
+2010,Puglia,31.3426
+2010,Basilicata,62.2134
+2010,Calabria,28.1953
+2010,Sicilia,14.6727
+2010,Sardegna,27.0115
+2011,Piemonte,165.3924
+2011,Valle d'Aosta,
+2011,Lombardia,142.7117
+2011,Trentino-Alto Adige,126.3844
+2011,Veneto,11.6159
+2011,Friuli-Venezia Giulia,35.57
+2011,Liguria,35.0618
+2011,Emilia-Romagna,123.9431
+2011,Toscana,76.4287
+2011,Umbria,107.8949
+2011,Marche,23.4839
+2011,Lazio,51.7673
+2011,Abruzzo,5.152
+2011,Molise,65.0482
+2011,Campania,45.0624
+2011,Puglia,27.0511
+2011,Basilicata,48.3853
+2011,Calabria,27.9066
+2011,Sicilia,12.7831
+2011,Sardegna,27.4075
