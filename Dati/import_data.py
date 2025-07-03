@@ -14,7 +14,7 @@ csv_dir = os.path.join(curr_dir, 'Dati/csv')
 
 print(f"Directory corrente: {csv_dir}")
 
-def import_data(url):
+def import_data(url):   
     response = requests.get(url)
     if response.status_code == 200:
         csv_content = StringIO(response.text)

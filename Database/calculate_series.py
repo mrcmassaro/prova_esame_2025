@@ -71,7 +71,10 @@ df_regione = query_db(query_regione)
 df_occupazione = query_db(query_occupazione)
 df_produttivita = query_db(query_produttivita)
 df_economia = query_db(query_economia)
+    
+print(df_regione)
 
+#regione_id è preso dalle tabelle create in create_db
 df_produttivita = pd.merge(df_produttivita, df_regione, left_on='regione_id', right_on='id')
 df_occupazione= pd.merge(df_occupazione, df_regione, left_on='regione_id', right_on='id')
 df_economia = pd.merge(df_economia, df_regione, left_on='regione_id', right_on='id')
