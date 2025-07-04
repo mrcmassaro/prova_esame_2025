@@ -88,3 +88,53 @@ Nel caso serva prima dell'analisi andremo a rinominare le colonne scritte in man
 Dopodiche potremo effettuare le nostre analisi in base alle varie richieste. 
 Di norma ciò avviene creando nuovi df in cui sulla base dei precedenti vengono fatte varie operazioni.
 Infine vengono fatti i grafici veri e proprio attraverso la libreria plotly.express
+
+
+
+
+------------------------------------------------------------------------------------------------------
+PUNTI DI FORZA DEL PROGETTO
+------------------------------------------------------------------------------------------------------
+
+La parte di importazione dei dati garantisce che i dati presi tramite url siano sempre aggiornati.
+
+-------------------------------------------------------------------------------------------------------
+
+Struttura ordinata e modulare
+
+-------------------------------------------------------------------------------------------------------
+
+create_db.py: definisce la struttura di base dei dati (regioni, produttività, occupazione, economia). È un primo step chiaro: crea un database SQLite relazionale ben normalizzato.
+
+calculate_series.py: prende i dati grezzi, li trasforma (merge, gruppi, medie, somme) e popola nuove tabelle di serie calcolate. Così separi dati grezzi e aggregati.
+
+api.py: espone i dati tramite un’API FastAPI. Quindi rendi questi dati interrogabili da frontend, dashboard o altre applicazioni.
+
+-------------------------------------------------------------------------------------------------------
+
+Database normalizzato e geograficamente dettagliato
+
+-------------------------------------------------------------------------------------------------------
+
+Usare le aree geografiche per aggregare regioni permette di:
+
+Fare analisi per macroaree (Nord, Centro, Sud, Isole).
+
+Facilitare confronti territoriali.
+
+Ridurre complessità: non lavori sempre sui dettagli regionali, ma puoi risalirci.
+
+-------------------------------------------------------------------------------------------------------
+
+API REST standard
+
+-------------------------------------------------------------------------------------------------------
+
+Esporre i dati tramite FastAPI:
+
+Ti permette di connettere i dati a strumenti di visualizzazione (Tableau, Power BI, Grafana, frontend custom).
+
+Usa filtri parametrici (es. da_anno e a_anno): rispondi solo coi dati necessari.
+
+È un approccio moderno, compatibile con CI/CD e cloud.
+
