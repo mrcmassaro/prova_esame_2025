@@ -138,3 +138,33 @@ Usa filtri parametrici (es. da_anno e a_anno): rispondi solo coi dati necessari.
 
 È un approccio moderno, compatibile con CI/CD e cloud.
 
+-------------------------------------------------------------------------------------------------------
+
+ESTENSIONI PER VS
+
+-------------------------------------------------------------------------------------------------------
+
+Edit CSV, Jupiter , Python, Rainbow csv, sqlite viewer
+
+
+Browse Lite
+Code Runner
+Data Wrangler
+Debugger for Java
+Extension Pack for Java
+Github Repositories
+Gradle for Java
+IntelliCode (AI)
+Java
+Jupyter
+Maven
+Python 
+Pylance
+Python Environments
+Rainbow CSV
+Remote Repositories
+Spring Initializr
+SQLite
+SQLIte Viewer
+Test Runner
+vscode-pdf
