@@ -19,6 +19,29 @@ def query_db(query: str, params: tuple = ()):
     conn.close()
     return df
 
+
+@app.get("/produttivita")
+def get_all_incidenza_spese():
+    query = "SELECT * FROM produttivita" 
+    params = []
+    df = query_db(query, tuple(params))
+    return df.to_dict(orient='records')
+
+@app.get("/occupazione")
+def get_all_partecipazione_popolazione():
+    query = "SELECT * FROM occupazione" 
+    params = []
+    df = query_db(query, tuple(params))
+    return df.to_dict(orient='records')
+
+@app.get("/economia")
+def get_all_sopravvivenza_imprese():
+    query = "SELECT * FROM economia" 
+    params = []
+    df = query_db(query, tuple(params))
+    return df.to_dict(orient='records')
+
+
 @app.get("/prod_aree")
 def get_produzione_aree(da_anno: Optional[int] = None, a_anno: Optional[int] = None):
     query = "SELECT anno, area_geografica, produttivita FROM Produttività_totala_aree "

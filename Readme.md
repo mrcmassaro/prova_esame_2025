@@ -66,7 +66,7 @@ FASE 5 : Creazione delle api  ----------> api.py
 
 Per far funzionare le api ci serve un enviroment virtuale che creeremo usando questo comando, python -m venv venv.
 
-Per attivare la macchina virtuale si usa questo comando .\(nome-venv)\Scripts\Activate.ps1   . 
+Per attivare la macchina virtuale si usa questo comando .\(nome-venv)\Scripts\Activate.ps1   .  .\venv\Scripts\Activate.ps1
 Nel caso questo comando dia un errore bisogna usare questo prima dell'attivazione della venv Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 Una volta fatte queste operezioni bisogna importare le librerie necessarie per far funzionare le librerie del modulo delle api.
