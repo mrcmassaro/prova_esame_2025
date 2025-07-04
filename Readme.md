@@ -168,3 +168,5 @@ SQLite
 SQLIte Viewer
 Test Runner
 vscode-pdf
+fastapi-snippets
+gitignore
