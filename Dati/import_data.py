@@ -25,8 +25,7 @@ def import_data(url):
         print(f"Errore nell'importazione dei dati da {url}")
         return None
 
-def save_df_local(df, filename):
-    os.makedirs(csv_dir, exist_ok=True)
+def save_df_local(df:pd.DataFrame, filename):
     path = os.path.join(csv_dir, filename)
     df.to_csv(path, index=False, encoding = 'utf-8')
     print(f"Dataframe salvati in {path}")
